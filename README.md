@@ -35,3 +35,5 @@ Now, lets set up the service with systemctl.
 # systemctl daemon-reload
 # systemctl start catalogue
 # systemctl enable catalogue
+
+#demo to show tags
