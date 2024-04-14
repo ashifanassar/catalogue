@@ -37,3 +37,10 @@ Now, lets set up the service with systemctl.
 # systemctl enable catalogue
 
 #demo to show tags commit 004
+
+Switch between branches
+
+Trunk based model we would typically get a MAIN branch with number of versions
+
+#git clone repo
+git checkout tagnam
