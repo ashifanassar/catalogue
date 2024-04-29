@@ -149,7 +149,7 @@ function mongoConnect() {
 if (process.env.DOCUMENTDB == 'true') {
 function mongoConnect() {
     return new Promise((resolve, reject) => {
-    var mongoURL = process.env.MONGO_URL || 'mongodb://admin1:Roboshop1:roboshop-dev-docdb.cluster-c93whrwsdihk.us-east-1.docdb.amazonaws.com:27017';
+    var mongoURL = process.env.MONGO_URL || 'mongodb://admin1:roboshop1:roboshop-dev-docdb.cluster-cb8wsmkkcj58.us-east-1.docdb.amazonaws.com:27017';
     var client = mongoClient.connect(mongoURL,
       {
         // Mutable & Immutable
