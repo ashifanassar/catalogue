@@ -1,5 +1,5 @@
 ENV                 = "dev"
-
+COMPONENT           = "catalogue"
 
 SPOT_INSTANCE_COUNT = 1
 SPOT_INSTANCE_TYPE  = "t3.micro"
