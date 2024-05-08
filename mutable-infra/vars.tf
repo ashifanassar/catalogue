@@ -1,7 +1,7 @@
 variable "ENV" {}
 variable "INTERNAL" {}
 variable "COMPONENT" {}
-variable "APP_VERSION" {}
+
 
 # Spot Variables
 variable "SPOT_INSTANCE_COUNT" {}
